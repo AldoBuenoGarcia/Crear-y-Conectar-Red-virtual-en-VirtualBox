@@ -6,7 +6,7 @@ Un Windows 10 pro, Windows Server y CentOS 7.
 
 ## Esquema
 
-![](Media\00.png)
+![](Media/00.png)
 
 
 
@@ -16,11 +16,11 @@ Un Windows 10 pro, Windows Server y CentOS 7.
 
 Seleccionamos el **desplegable** de **herramientas** y le damos a **Red**.
 
-![](.\Media\01.png)
+![](Media/01.png)
 
 Seleccionaremos la pestaña **NAT Networks** seleccionamos **Crear** para crear nuestra red.
 
-![](.\Media\02.png)
+![](Media/02.png)
 
 
 
@@ -32,7 +32,7 @@ Normalmente se crea con una ip válida que puedes modificar a tu gusto, la dejar
 
 Ahora seleccionamos una de nuestras máquinas y selecionamos **Configuración**, despues vamos a **Red**, en **conectado a** selecionamos **Red NAT** y finalmente seleccionamos la **red creada anteriormente**.
 
-![](.\Media\03.png)
+![](Media/03.png)
 
 
 
@@ -54,11 +54,11 @@ Tanto en Windows 10 pro como en Windows Server 2019 activaremos lo mismo y se ac
 
    **Windows 10**
 
-![](.\Media\04.png)
+![](Media/04.png)
 
  **Windows server2019**
 
-![](.\Media\05.png)
+![](Media/05.png)
 
 
 
@@ -66,11 +66,11 @@ Tanto en Windows 10 pro como en Windows Server 2019 activaremos lo mismo y se ac
 
    Iremos a **System and Security** > **Windows Defender Firewall** > **Advanced Seetings**
 
-![](.\Media\06.png)
+![](Media/06.png)
 
 Activaremos en **Inbound Rules** y en **Outbound Rules** la regla de **File and Printer Sharing (Echo Request icmpv4)**
 
-![](.\Media\07.png)
+![](Media/07.png)
 
 
 
@@ -86,13 +86,13 @@ Puede que no obtengamos una IP, tendremos que conectar la red manualmente
 
 
 
-![](.\Media\10.png)
+![](Media/10.png)
 
 
 
 Empezamos usando el comando **nmcli device status**.
 
-![](.\Media\11.png)
+![](Media/11.png)
 
 
 
@@ -100,7 +100,7 @@ Este nos indicara todas las redes, y veremos que la red **ethernet** que hemos a
 
 Para **conectar** a dicha red usaremos el comando **nmcli device connect enp0s3**
 
-![](.\Media\12.png)
+![](Media/12.png)
 
 
 
@@ -108,7 +108,7 @@ ahora volvemos a comprobar si nos devuelve la ip el comando **hostname -I**
 
 
 
-![](.\Media\13.png)
+![](Media/13.png)
 
 
 
@@ -122,34 +122,34 @@ Hacemos ping entre las máquinas con el comando **ping** y la **direccion ip pri
 
 **Windows10 a WindowsSever2019**
 
-![](.\Media\08.png)
+![](Media/08.png)
 
 
 
 **Windows10 a CentOS**
 
-![](.\Media\14.png)
+![](Media/14.png)
 
 
 
 **WindowsSever2019 a Windows 10**
 
-![](.\Media\09.png)
+![](Media/09.png)
 
 
 
 **WindowsSever2019 a CentOs**
 
-![](.\Media\15.png)
+![](Media/15.png)
 
 
 
 **CentOS a Windows server**
 
-![](.\Media\16.png)
+![](Media/16.png)
 
 
 
 **CentOS a Windows 10**
 
-![](.\Media\17.png)
+![](Media/17.png)
