@@ -6,7 +6,7 @@ Un Windows 10 pro, Windows Server y CentOS 7.
 
 ## Esquema
 
-![](.\Media\00.png)
+![](Media\00.png)
 
 
 
